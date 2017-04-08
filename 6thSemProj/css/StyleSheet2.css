@@ -1,0 +1,168 @@
+p{
+  font-size: 30px;
+  background-color: #0d4688;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.MainRow{
+
+  float: left;
+  width: 100%;
+  height: 90vh;
+}
+
+.MainRow.coll1{
+  float:left;
+  width:15%;
+  background-color:rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+.MainRow.coll2{
+  margin-left: auto;
+  width:69%;
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.MainRow.coll3{
+  background-color:rgba(0,0,0,0.7);
+  margin-left: auto;
+  width:16%;
+  text-align: center;
+  overflow: auto;
+}
+
+.allSlidesContainer{
+  overflow: auto;
+}
+
+.MainRow.coll1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MainRow.coll1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+}
+.MainRow.coll1 li img {
+    display: block;
+    float: left;
+    width: 18%;
+}
+
+.MainRow.coll1 li a:hover {
+    background-color: #2360a8;
+}
+
+.eachSlide{
+  margin: 0 auto;
+  width: 180px;
+  height: 140px;
+  background-color: white;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.eachSlide textarea{
+  width:70%;
+  height: 10%;
+  text-align: center;
+}
+.eachSlide p{
+  width:70%;
+  text-align: center;
+}
+.eachSlide h1{
+  width:70%;
+  text-align: center;
+}
+
+
+
+.MainRow.coll3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MainRow.coll3 li {
+    display: block;
+    color: white;
+    margin-top:4px;
+    margin-bottom:4px;
+    text-decoration: none;
+}
+.MainRow.coll3 button{
+  height:30px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0px;
+  border-radius: 70px;
+  border: 2px solid #0d4688;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.MainRow.coll3 button:hover{
+  background-color: #0d4688;
+}
+
+.eachSlide button{
+  display:none;
+  color:white;
+  position:relative;
+  top:40%;
+  left:40%;
+  padding: 0;
+  margin: 0;
+}
+.eachSlide:hover button{
+  display:block;
+  background-color:rgba(0,0,0,0.7);
+}
+.eachSlide:hover textarea{
+  display:none;
+}
+.eachSlide:hover h1{
+  display:none;
+}
+.eachSlide:hover p{
+  display:none;
+}
+.mainSlide{
+  background-color:white;
+  margin:5%;
+  margin-top:2%;
+  margin-bottom:2%;
+  border:1px solid black;
+  height:78vh;
+  overflow: hidden;
+}
+.mainSlide textarea{
+  position: relative;
+}
+
+.mHead{
+  resize:both;
+  height:20%;
+  width:20%;
+  border: 1px solid;
+  overflow:auto;
+}
+.mBody{
+  resize:both;
+  height:20%;
+  width:20%;
+  border: 1px solid;
+  overflow:auto;
+}
